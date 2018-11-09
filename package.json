@@ -1,0 +1,19 @@
+{
+  "name": "transition-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/transition-map.git"
+  },
+  "author": "vdeturckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/transition-map/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/transition-map#readme"
+}
