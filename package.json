@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "pretest": "rm -rf ./coverage",
+    "test": "NODE_V8_COVERAGE=./coverage node test.js",
+    "posttest": "node coverage.js"
   },
   "repository": {
     "type": "git",
